@@ -7,8 +7,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM, Dropout
 
 import assemblyai as aai
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 aai.settings.api_key = os.environ.get("ASSEMBLYAI_API_KEY")
 
 def transcribe_audio(file_path):
