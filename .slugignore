@@ -1,2 +1,10 @@
 /samples
 /__pycache__
+*.pyc
+__pycache__/
+samples/
+*.log
+tests/
+docs/
+venv/
+.venv/
